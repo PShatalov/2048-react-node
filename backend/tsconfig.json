@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "./build",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES2016",
+    "lib": ["es2017", "dom"],
+    "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+    "noImplicitReturns": false /* Report error when not all code paths in function return a value. */,
+    "noUnusedLocals": false /* Report errors on unused locals. */,
+    "noUnusedParameters": false /* Report errors on unused parameters. */,
+    "sourceMap": true,
+    "strict": true /* Enable all strict type-checking options. */,
+    "suppressImplicitAnyIndexErrors": true,
+    "types": [
+      "reflect-metadata",
+      "mocha"
+    ]
+  },
+  "exclude": ["node_modules", "build"]
+}

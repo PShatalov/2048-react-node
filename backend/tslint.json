@@ -1,0 +1,63 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "import-name": false,
+    "ordered-imports": true,
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "ignore-pattern": "^ \\*"
+      }
+    ],
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "no-increment-decrement": false,
+    "no-trailing-whitespace": false,
+    "object-shorthand-properties-first": false,
+    "prefer-array-literal": [
+      true,
+      {
+        "allow-type-parameters": true
+      }
+    ],
+    "quotemark": [
+      true,
+      "double",
+      "avoid-escape"
+    ],
+    "space-before-function-paren": false,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "allow-leading-underscore"
+    ],
+    "ter-arrow-parens": [
+      true,
+      "as-needed"
+    ]
+  }
+}

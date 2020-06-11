@@ -1,0 +1,13 @@
+{
+  "environment": "development",
+  "port": "4000",
+  "db": {
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "master1",
+    "password": "password1",
+    "synchronize": false,
+    "logging": false
+  }
+}
