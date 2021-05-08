@@ -66,7 +66,7 @@
     "request": "2.88.0",
     "request-promise-native": "1.0.5",
     "serialize-error": "5.0.0",
-    "typeorm": "0.2.21",
+    "typeorm": "0.2.25",
     "uuid-by-string": "2.0.1"
   }
 }
